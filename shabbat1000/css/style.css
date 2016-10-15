@@ -1,0 +1,161 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Cormorant+Garamond|Montserrat';
+@import url("http://getbootstrap.com/dist/css/bootstrap.min.css");
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    
+}
+
+
+p,h1,h2,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+p{
+
+    font-size: 18px;
+}
+
+.nav_span_active {
+    color:#D7BA51;
+    
+}
+
+
+
+#banner{
+    
+    font-family:'Cormorant Garamond', serif;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:#b31b1b;
+    
+}    
+       
+#banner h1,h3{
+    font-family:'Montserrat', sans-serif;
+    color:white;
+    
+    
+}
+
+
+
+#nav_bar{
+    background-color:#252b2c;
+    color:white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    z-index: -2;
+    
+    
+    
+}
+
+#nav_bar a{
+    color:white;
+
+}
+
+#top{
+    position:fixed;
+    top:0px;
+    margin: 0;
+    width: 100%;
+    
+    
+}
+
+
+
+#container{
+    padding-top:15px;
+    padding-bottom: 15px;
+    width:auto;
+    margin-top:180px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 1;
+    
+}
+
+
+.content {
+    float:left;
+    margin:auto;
+    width: 760px;
+    margin-right:20px;
+
+}
+   
+#banner_pic {
+    max-width:100%;
+    z-index: -1;
+    height:auto;
+    padding-top: 120px;
+    position: absolute;
+
+}
+
+#banner_pic img{
+    width:100%;
+    height: auto;
+
+
+}
+
+#banner_txt{
+    z-index: -1;
+    top: 20px;
+    text-align: center;
+    padding-top: 25%;
+    position: relative;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+}
+
+#banner_txt h1,h2{
+    font-family:'Montserrat', sans-serif;
+
+}
+
+#heading_title{
+    text-align: center;
+    font-family: 'Cormorant Garamond', sans-serif;
+
+}
+
+#register_box {
+    color:white;
+    z-index: 2;
+    text-align: center;
+
+}
+
+#register_banner{
+    
+    z-index: 1;
+
+
+}
+
+
